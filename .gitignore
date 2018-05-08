@@ -9,7 +9,6 @@ classes
 target/**
 bower_components
 .sass-cache
-.gitignore~
 npm-debug.log
 !**/view/lib/
 /public
@@ -22,6 +21,3 @@ npm-debug.log
 _npm-shrinkwrap.json
 node_modules
 git
-/dist
-.react-playground/
-mss-deploy.log
