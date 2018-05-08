@@ -1,4 +1,6 @@
 
 
 
-var obj = {v: 1}; module.exports = obj;
+var obj = {v: 12};
+
+module.exports = obj;
