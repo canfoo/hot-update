@@ -1,6 +1,6 @@
 {
   "name": "module-hot-update",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Node module hot update",
   "main": "index.js",
   "repository": {
@@ -17,10 +17,9 @@
     "url": "https://github.com/canfoo/hot-update/issues"
   },
   "homepage": "https://github.com/canfoo/hot-update#readme",
-  "devDependencies": {
-    "heapdump": "^0.3.9"
-  },
+  "devDependencies": {},
   "dependencies": {
-    "chalk": "^2.4.1"
+    "chalk": "^2.4.1",
+    "heapdump": "^0.3.9"
   }
 }
