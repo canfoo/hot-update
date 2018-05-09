@@ -1,6 +1,6 @@
 {
-  "name": "hot-update",
-  "version": "0.0.1",
+  "name": "module-hot-update",
+  "version": "0.0.2",
   "description": "Node module hot update",
   "main": "index.js",
   "repository": {
