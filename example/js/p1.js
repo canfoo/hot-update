@@ -1,4 +1,1 @@
-
-module.exports = {
-    name: '33'
-}
+var obj = {name: 'hot-p111'}; module.exports = obj;

@@ -1,21 +1,28 @@
 
-var path = require('path')
-var hot = require('../lib/hot')
-var tool = require('../lib/tool')
-var fs = require('fs')
-// var p1 = require('./js/p1')
-// console.log('p1', p1)
+var path = require('path');
+var fs = require('fs');
+var hot = require('../lib/hot');
+var obj = require('./js/p1');
 
-var obj = require('./js/test')
-
-hot(path.join(__dirname, './js/'))
-
-
-console.log('obj', obj)
+hot(path.join(__dirname, './js/p1')); // 配置热加载文件
 
 setInterval(function() {
-    console.log('obj', obj)
-}, 2000)
+    console.log('obj', obj);
+}, 1000);
 
-// setInterval(tool.showMemory, 5000)
+setTimeout(function() {  // 模拟修改文件内容
+    console.log('文件修改了')
+    fs.writeFile('./js/p1.js', "var obj = {name: 'hot-p222'}; module.exports = obj;");
+}, 2000);
+
+setTimeout(function() {  // 模拟修改文件内容
+    console.log('文件修改了')
+    fs.writeFile('./js/p1.js', "var obj = {name: 'hot-p333'}; module.exports = obj;");
+}, 4000);
+
+setTimeout(function() {  // 模拟修改文件内容
+    console.log('文件修改了')
+    fs.writeFile('./js/p1.js', "var obj = {name: 'hot-p111'}; module.exports = obj;");
+}, 6000);
+
  
