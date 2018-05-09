@@ -25,5 +25,8 @@
   "homepage": "https://github.com/canfoo/hot-update#readme",
   "devDependencies": {
     "heapdump": "^0.3.9"
+  },
+  "dependencies": {
+    "chalk": "^2.4.1"
   }
 }
