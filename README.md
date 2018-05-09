@@ -14,7 +14,7 @@ Node 模块热加载工具
 
 安装
 
-```javascript
+```
 npm install --save module-hot-update
 ```
 
