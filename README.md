@@ -1,2 +1,9 @@
-# hot-update
-Node module hot update
+#hot-update
+
+Node 模块热加载工具
+
+> 平常在开发nodejs，如果修改代码了，需要重启node进程才可以进行验证，这样大大降低了开发效率。虽然现在有一些工具可以配置nodejs文件修改后自动重启进程，但是针对一些比较复杂nodejs代码，比如代码理由启动监听端口功能，重启进程也是一个比较久时间的消耗。因此是不是有一个工具，可以只对某个nodejs文件进行改变即重加载，这样就可以节省开发不必要的等候时间了。hot-update正是这样的工具：
+
+一个例子：
+
+<img src="./demo.jpg" style="width: 600px">
