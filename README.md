@@ -39,7 +39,7 @@ hotUpdate(path.join(__dirname, path);
 
 
 
-目前只能对模块导出的是Object和Array类型的进行热加载
+目前只能对模块导出的内容是Object和Array类型的进行热加载
 
 ## TODO
 
