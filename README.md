@@ -15,7 +15,7 @@ Node 模块热加载工具
 安装
 
 ```
-npm install --save module-hot-update
+npm install -D module-hot-update
 ```
 
 配置（就是这么简单～）
