@@ -8,7 +8,7 @@ var fs = require('fs')
 
 var obj = require('./js/test')
 
-hot(path.join(__dirname, './js/p1.js'))
+hot(path.join(__dirname, './js/p1'))
 
 
 console.log('obj', obj)

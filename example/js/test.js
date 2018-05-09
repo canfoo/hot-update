@@ -7,7 +7,7 @@ function test () {
     return '1'
 }
 
-var obj = {v: '22ffff333aafffffff', p1: p1};
+var obj = {v: '22f', p1: p1};
 
 
 module.exports = obj;
