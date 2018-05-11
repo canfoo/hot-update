@@ -1,7 +1,7 @@
 
 var path = require('path');
 var fs = require('fs');
-var hot = require('../lib/hot');
+var hot = require('../index');
 var obj = require('./js/p1');
 
 hot(path.join(__dirname, './js/p1')); // 配置热加载文件
